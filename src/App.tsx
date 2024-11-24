@@ -47,8 +47,8 @@ const GameInterface: React.FC = () => {
   const [clickEffects, setClickEffects] = useState<ClickAnimation[]>([]);
 
   // Game constants
-  const POINTS_INCREMENT = 11;
-  const HOURLY_YIELD = 126420;
+  const POINTS_INCREMENT = 20;
+  const HOURLY_YIELD = 100000;
 
   // Timer states
   const [bonusTimer, setBonusTimer] = useState("");
